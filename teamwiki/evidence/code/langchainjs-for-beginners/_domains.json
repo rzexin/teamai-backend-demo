@@ -1,0 +1,27 @@
+{
+  "domain": "AI教学示例",
+  "description": "LangChain.js 初学者教学示例代码仓库",
+  "keywords": [
+    "LangChain.js",
+    "LLM",
+    "AI Agent",
+    "RAG",
+    "MCP",
+    "智能体",
+    "提示词工程",
+    "语义检索",
+    "函数调用",
+    "教学示例"
+  ],
+  "components": [
+    "06-mcp",
+    "08-agentic-rag-systems",
+    "scripts",
+    "01-introduction",
+    "02-chat-models",
+    "03-prompts-messages-outputs",
+    "04-function-calling-tools",
+    "05-agents",
+    "07-documents-embeddings-semantic-search"
+  ]
+}

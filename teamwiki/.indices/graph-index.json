@@ -1,0 +1,470 @@
+{
+  "schemaVersion": "team-wiki.graph-index.v1",
+  "generatedAt": "2026-08-27T09:25:39.402Z",
+  "nodes": [
+    {
+      "slug": "config/process.env.AI_MODEL",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.AI_MODEL",
+      "domain": "08-agentic-rag-systems"
+    },
+    {
+      "slug": "config/process.env.AI_ENDPOINT",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.AI_ENDPOINT",
+      "domain": "08-agentic-rag-systems"
+    },
+    {
+      "slug": "config/process.env.AI_API_KEY",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.AI_API_KEY",
+      "domain": "08-agentic-rag-systems"
+    },
+    {
+      "slug": "interface/USE /",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "USE /",
+      "domain": "06-mcp"
+    },
+    {
+      "slug": "config/process.env.PORT",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.PORT",
+      "domain": "06-mcp"
+    },
+    {
+      "slug": "config/process.env.AI_EMBEDDING_MODEL",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.AI_EMBEDDING_MODEL",
+      "domain": "08-agentic-rag-systems"
+    },
+    {
+      "slug": "component/createChatModel",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "createChatModel",
+      "domain": "scripts"
+    },
+    {
+      "slug": "component/createEmbeddingsModel",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "createEmbeddingsModel",
+      "domain": "scripts"
+    },
+    {
+      "slug": "config/process.env.VALIDATION_CONCURRENCY",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.VALIDATION_CONCURRENCY",
+      "domain": "scripts"
+    },
+    {
+      "slug": "interface/TestResult",
+      "type": "interface",
+      "confidence": "EXTRACTED",
+      "title": "TestResult",
+      "domain": "scripts"
+    },
+    {
+      "slug": "component/INTERACTIVE_FILES",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "INTERACTIVE_FILES",
+      "domain": "scripts"
+    },
+    {
+      "slug": "component/SERVER_FILES",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "SERVER_FILES",
+      "domain": "scripts"
+    },
+    {
+      "slug": "component/SKIP_FILES",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "SKIP_FILES",
+      "domain": "scripts"
+    },
+    {
+      "slug": "component/TIMEOUT_MS",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "TIMEOUT_MS",
+      "domain": "scripts"
+    },
+    {
+      "slug": "error/RETRYABLE_ERROR_PATTERNS",
+      "type": "error",
+      "confidence": "INFERRED",
+      "title": "RETRYABLE_ERROR_PATTERNS",
+      "domain": "scripts"
+    },
+    {
+      "slug": "config/process.env.VALIDATION_RETRIES",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.VALIDATION_RETRIES",
+      "domain": "scripts"
+    },
+    {
+      "slug": "component/findCodeFiles",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "findCodeFiles",
+      "domain": "scripts"
+    },
+    {
+      "slug": "component/getInteractiveInput",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "getInteractiveInput",
+      "domain": "scripts"
+    },
+    {
+      "slug": "component/getServerConfig",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "getServerConfig",
+      "domain": "scripts"
+    },
+    {
+      "slug": "component/shouldSkipFile",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "shouldSkipFile",
+      "domain": "scripts"
+    },
+    {
+      "slug": "component/getSkipReason",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "getSkipReason",
+      "domain": "scripts"
+    },
+    {
+      "slug": "component/runServerExample",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "runServerExample",
+      "domain": "scripts"
+    },
+    {
+      "slug": "component/runExample",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "runExample",
+      "domain": "scripts"
+    },
+    {
+      "slug": "component/findChapters",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "findChapters",
+      "domain": "scripts"
+    },
+    {
+      "slug": "component/collectAllCodeFiles",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "collectAllCodeFiles",
+      "domain": "scripts"
+    },
+    {
+      "slug": "component/displayTestSummary",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "displayTestSummary",
+      "domain": "scripts"
+    },
+    {
+      "slug": "component/displayFinalResults",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "displayFinalResults",
+      "domain": "scripts"
+    },
+    {
+      "slug": "config/process.env.OPENAI_API_KEY",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.OPENAI_API_KEY",
+      "domain": "02-chat-models"
+    },
+    {
+      "slug": "config/process.env.ANTHROPIC_API_KEY",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.ANTHROPIC_API_KEY",
+      "domain": "02-chat-models"
+    },
+    {
+      "slug": "config/process.env.GOOGLE_API_KEY",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.GOOGLE_API_KEY",
+      "domain": "02-chat-models"
+    },
+    {
+      "slug": "config/process.env.AI_API_KEY_BACKUP",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.AI_API_KEY_BACKUP",
+      "domain": "02-chat-models"
+    },
+    {
+      "slug": "config/process.env.MCP_SERVER_URL",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.MCP_SERVER_URL",
+      "domain": "06-mcp"
+    },
+    {
+      "slug": "config/process.env.CONTEXT7_API_KEY",
+      "type": "config",
+      "confidence": "EXTRACTED",
+      "title": "process.env.CONTEXT7_API_KEY",
+      "domain": "06-mcp"
+    },
+    {
+      "slug": "evidence/code/langchainjs-for-beginners/index",
+      "type": "architecture",
+      "confidence": "EXTRACTED",
+      "title": "langchainjs-for-beginners code index",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/langchainjs-for-beginners/config",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "config",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/langchainjs-for-beginners/interface",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "interface",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/langchainjs-for-beginners/component",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "component",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/langchainjs-for-beginners/error",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "error",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/langchainjs-for-beginners/relation-.cursor",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "relation-.cursor",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/langchainjs-for-beginners/interfaces",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "interfaces",
+      "domain": "code-knowledge"
+    },
+    {
+      "slug": "evidence/code/langchainjs-for-beginners/dependency-paths",
+      "type": "component",
+      "confidence": "EXTRACTED",
+      "title": "dependency-paths",
+      "domain": "code-knowledge"
+    }
+  ],
+  "edges": [
+    {
+      "from": ".cursor/skills/team-wiki-codebase/scripts/scan_repo.py",
+      "to": "08-agentic-rag-systems/samples/mcp-rag-server/mcp-rag-server.ts",
+      "relation": "DEPENDS_ON",
+      "weight": 0.8,
+      "source": "code-heuristic"
+    },
+    {
+      "from": ".cursor/skills/team-wiki-codebase/scripts/scan_repo.py",
+      "to": "08-agentic-rag-systems/code/01-when-to-use-rag.ts",
+      "relation": "DEPENDS_ON",
+      "weight": 0.8,
+      "source": "code-heuristic"
+    },
+    {
+      "from": ".cursor/skills/team-wiki-codebase/scripts/scan_repo.py",
+      "to": "08-agentic-rag-systems/code/01a-traditional-rag.ts",
+      "relation": "DEPENDS_ON",
+      "weight": 0.8,
+      "source": "code-heuristic"
+    },
+    {
+      "from": ".cursor/skills/team-wiki-codebase/scripts/scan_repo.py",
+      "to": "08-agentic-rag-systems/code/02-agentic-rag.ts",
+      "relation": "DEPENDS_ON",
+      "weight": 0.8,
+      "source": "code-heuristic"
+    },
+    {
+      "from": ".cursor/skills/team-wiki-codebase/scripts/scan_repo.py",
+      "to": "08-agentic-rag-systems/samples/citation-rag.ts",
+      "relation": "DEPENDS_ON",
+      "weight": 0.8,
+      "source": "code-heuristic"
+    },
+    {
+      "from": ".cursor/skills/team-wiki-codebase/scripts/scan_repo.py",
+      "to": "08-agentic-rag-systems/samples/multi-source-rag.ts",
+      "relation": "DEPENDS_ON",
+      "weight": 0.8,
+      "source": "code-heuristic"
+    },
+    {
+      "from": ".cursor/skills/team-wiki-codebase/scripts/scan_repo.py",
+      "to": "08-agentic-rag-systems/solution/conversational-rag.ts",
+      "relation": "DEPENDS_ON",
+      "weight": 0.8,
+      "source": "code-heuristic"
+    },
+    {
+      "from": ".cursor/skills/team-wiki-codebase/scripts/scan_repo.py",
+      "to": "08-agentic-rag-systems/solution/knowledge-base-rag.ts",
+      "relation": "DEPENDS_ON",
+      "weight": 0.8,
+      "source": "code-heuristic"
+    },
+    {
+      "from": ".cursor/skills/team-wiki-codebase/scripts/scan_repo.py",
+      "to": "08-agentic-rag-systems/samples/mcp-rag-server/mcp-rag-agent.ts",
+      "relation": "DEPENDS_ON",
+      "weight": 0.8,
+      "source": "code-heuristic"
+    },
+    {
+      "from": ".cursor/skills/team-wiki-codebase/scripts/validate_kb.py",
+      "to": "08-agentic-rag-systems/samples/mcp-rag-server/mcp-rag-server.ts",
+      "relation": "DEPENDS_ON",
+      "weight": 0.8,
+      "source": "code-heuristic"
+    },
+    {
+      "from": ".cursor/skills/team-wiki-codebase/scripts/validate_kb.py",
+      "to": "08-agentic-rag-systems/code/01-when-to-use-rag.ts",
+      "relation": "DEPENDS_ON",
+      "weight": 0.8,
+      "source": "code-heuristic"
+    },
+    {
+      "from": ".cursor/skills/team-wiki-codebase/scripts/validate_kb.py",
+      "to": "08-agentic-rag-systems/code/01a-traditional-rag.ts",
+      "relation": "DEPENDS_ON",
+      "weight": 0.8,
+      "source": "code-heuristic"
+    },
+    {
+      "from": ".cursor/skills/team-wiki-codebase/scripts/validate_kb.py",
+      "to": "08-agentic-rag-systems/code/02-agentic-rag.ts",
+      "relation": "DEPENDS_ON",
+      "weight": 0.8,
+      "source": "code-heuristic"
+    },
+    {
+      "from": ".cursor/skills/team-wiki-codebase/scripts/validate_kb.py",
+      "to": "08-agentic-rag-systems/samples/citation-rag.ts",
+      "relation": "DEPENDS_ON",
+      "weight": 0.8,
+      "source": "code-heuristic"
+    },
+    {
+      "from": ".cursor/skills/team-wiki-codebase/scripts/validate_kb.py",
+      "to": "08-agentic-rag-systems/samples/multi-source-rag.ts",
+      "relation": "DEPENDS_ON",
+      "weight": 0.8,
+      "source": "code-heuristic"
+    },
+    {
+      "from": ".cursor/skills/team-wiki-codebase/scripts/validate_kb.py",
+      "to": "08-agentic-rag-systems/solution/conversational-rag.ts",
+      "relation": "DEPENDS_ON",
+      "weight": 0.8,
+      "source": "code-heuristic"
+    },
+    {
+      "from": ".cursor/skills/team-wiki-codebase/scripts/validate_kb.py",
+      "to": "08-agentic-rag-systems/solution/knowledge-base-rag.ts",
+      "relation": "DEPENDS_ON",
+      "weight": 0.8,
+      "source": "code-heuristic"
+    },
+    {
+      "from": ".cursor/skills/team-wiki-codebase/scripts/validate_kb.py",
+      "to": "08-agentic-rag-systems/samples/mcp-rag-server/mcp-rag-agent.ts",
+      "relation": "DEPENDS_ON",
+      "weight": 0.8,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/langchainjs-for-beginners/index",
+      "to": "evidence/code/langchainjs-for-beginners/config",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/langchainjs-for-beginners/index",
+      "to": "evidence/code/langchainjs-for-beginners/interface",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/langchainjs-for-beginners/index",
+      "to": "evidence/code/langchainjs-for-beginners/component",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/langchainjs-for-beginners/index",
+      "to": "evidence/code/langchainjs-for-beginners/error",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/langchainjs-for-beginners/index",
+      "to": "evidence/code/langchainjs-for-beginners/relation-.cursor",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/langchainjs-for-beginners/index",
+      "to": "evidence/code/langchainjs-for-beginners/interfaces",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    },
+    {
+      "from": "evidence/code/langchainjs-for-beginners/index",
+      "to": "evidence/code/langchainjs-for-beginners/dependency-paths",
+      "relation": "CONTAINS",
+      "weight": 0.6,
+      "source": "code-heuristic"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "team-wiki.codebase-output-manifest.v2",
+  "project": "langchainjs-for-beginners",
+  "generatedAt": "2026-08-27T09:27:04.037Z",
+  "components": [
+    {
+      "slug": "06-mcp",
+      "docPath": "evidence/code/langchainjs-for-beginners/06-mcp.md",
+      "title": "06-mcp",
+      "category": "orchestration",
+      "confidence": "INFERRED",
+      "responsibilities": [
+        "通过 MultiServerMCPClient 连接外部 MCP 服务器(Context7 文档服务与本地计算器),统一支持 HTTP 与 stdio 两种传输方式",
+        "获取并聚合各 MCP 服务器暴露的工具,并与 LangChain createAgent 集成,使 agent 能自主选择调用文档检索与数学计算工具",
+        "实现 MCP 服务端(StreamableHTTPServer + Express,含会话管理与优雅关闭)及生产级错误处理模式(重试、超时、主备降级、健康检查)"
+      ],
+      "entrypoints": []
+    },
+    {
+      "slug": "08-agentic-rag-systems",
+      "docPath": "evidence/code/langchainjs-for-beginners/08-agentic-rag-systems.md",
+      "title": "08-agentic-rag-systems",
+      "category": "orchestration",
+      "confidence": "INFERRED",
+      "responsibilities": [
+        "演示RAG/提示工程/微调的选型决策框架",
+        "构建向量存储并封装语义检索工具",
+        "演示Agentic RAG中Agent自主决策何时检索",
+        "通过MCP协议将RAG能力暴露为可共享服务",
+        "演示多源检索、引用生成与对话式知识库问答"
+      ],
+      "entrypoints": []
+    },
+    {
+      "slug": "scripts",
+      "docPath": "evidence/code/langchainjs-for-beginners/scripts.md",
+      "title": "scripts",
+      "category": "entry",
+      "confidence": "INFERRED",
+      "responsibilities": [
+        "创建并配置 LangChain 模型实例（ChatOpenAI、OpenAIEmbeddings）供课程示例复用",
+        "校验 AI 服务连通性与环境变量配置",
+        "并行批量运行各章节代码示例，支持交互式输入注入、服务端启动探测、超时与重试",
+        "汇总并展示测试结果、跳过原因与失败详情，返回退出码"
+      ],
+      "entrypoints": [
+        "SERVER_FILES (scripts/validation-common.ts:29)",
+        "getServerConfig (scripts/validation-common.ts:129)",
+        "runServerExample (scripts/validation-common.ts:151)"
+      ]
+    },
+    {
+      "slug": "01-introduction",
+      "docPath": "evidence/code/langchainjs-for-beginners/01-introduction.md",
+      "title": "01-introduction",
+      "category": "entry",
+      "confidence": "INFERRED",
+      "responsibilities": [
+        "演示 LangChain.js 基础模型调用 (ChatOpenAI invoke)",
+        "展示 SystemMessage/HumanMessage 等消息类型与结构化提示的用法",
+        "对多个 AI 模型进行性能基准对比与质量评测 (速度/响应长度/质量)",
+        "通过系统提示词实验控制模型角色与回答风格"
+      ],
+      "entrypoints": []
+    },
+    {
+      "slug": "02-chat-models",
+      "docPath": "evidence/code/langchainjs-for-beginners/02-chat-models.md",
+      "title": "02-chat-models",
+      "category": "entry",
+      "confidence": "INFERRED",
+      "responsibilities": [
+        "演示 LangChain.js 聊天模型的核心用法（多轮对话、流式响应、温度/maxTokens 参数调优、模型初始化）",
+        "演示错误处理与内置重试（withRetry、错误分类、降级回退）",
+        "演示 token 用量统计与成本核算（usage_metadata、累计报表、CSV 导出）",
+        "提供交互式聊天机器人、流式聊天、健壮错误处理等实战样例与作业解答"
+      ],
+      "entrypoints": []
+    },
+    {
+      "slug": "03-prompts-messages-outputs",
+      "docPath": "evidence/code/langchainjs-for-beginners/03-prompts-messages-outputs.md",
+      "title": "03-prompts-messages-outputs",
+      "category": "service",
+      "confidence": "INFERRED",
+      "responsibilities": [
+        "演示 LangChain.js 中消息数组与提示模板两种范式的构造方式及适用场景选择",
+        "构建带变量替换的基础模板、多格式模板与可组合/部分预填(partial)的复用型提示",
+        "通过 few-shot 示例与 Zod schema 定义结构化输出，实现类型安全的响应解析与校验"
+      ],
+      "entrypoints": []
+    },
+    {
+      "slug": "04-function-calling-tools",
+      "docPath": "evidence/code/langchainjs-for-beginners/04-function-calling-tools.md",
+      "title": "04-function-calling-tools",
+      "category": "orchestration",
+      "confidence": "INFERRED",
+      "responsibilities": [
+        "使用 Zod schema 定义工具并校验参数",
+        "通过 bindTools 绑定工具并演示 LLM 生成 tool_calls 的三步执行循环（生成→执行→回传）",
+        "演示多工具场景下 LLM 的自动选择与路由",
+        "提供天气、计算器、搜索、旅行助手等教学示例工具"
+      ],
+      "entrypoints": []
+    },
+    {
+      "slug": "05-agents",
+      "docPath": "evidence/code/langchainjs-for-beginners/05-agents.md",
+      "title": "05-agents",
+      "category": "orchestration",
+      "confidence": "INFERRED",
+      "responsibilities": [
+        "演示使用createAgent()构建基础智能体及手动ReAct循环的实现",
+        "演示多工具智能体如何自动选择并调度工具(计算器/天气/搜索等)",
+        "演示中间件机制:动态模型选择、工具错误处理、summarizationMiddleware上下文压缩",
+        "提供多步骤规划与研究智能体的作业解法(工具链式调用)"
+      ],
+      "entrypoints": []
+    },
+    {
+      "slug": "07-documents-embeddings-semantic-search",
+      "docPath": "evidence/code/langchainjs-for-beginners/07-documents-embeddings-semantic-search.md",
+      "title": "07-documents-embeddings-semantic-search",
+      "category": "data",
+      "confidence": "INFERRED",
+      "responsibilities": [
+        "生成文本嵌入向量并计算余弦相似度",
+        "构建内存向量存储并执行语义相似度检索",
+        "演示向量运算、批量嵌入与相似度分数阈值解释",
+        "展示跨语言检索、关键词vs语义对比及嵌入降维可视化"
+      ],
+      "entrypoints": []
+    }
+  ],
+  "edges": []
+}
