@@ -1,0 +1,8 @@
+version: 1
+roles:
+  - id: js
+    description: ""
+    resources:
+      knowledge: &a1
+        - jsns
+      skills: *a1
