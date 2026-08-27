@@ -1,8 +1,6 @@
 username: rzexin
-updatedAt: 2026-08-27T04:52:29.314Z
-skills: {}
-interventions:
-  sessions: 2
-  interrupt: 0
-  toolReject: 0
-  correction: 0
+updatedAt: 2026-08-27T09:18:27.311Z
+skills:
+  root:
+    count: 2
+    lastUsed: 2026-08-27T07:23:01.589Z
